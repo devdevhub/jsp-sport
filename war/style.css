@@ -1,0 +1,43 @@
+#nav, #nav * {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0px;
+}
+#nav li {
+	background-color: #000000;
+	border-radius: 5px;
+}
+#nav a {
+	font-size: 24px;
+	width: 125px;
+	text-align: center;
+}
+
+body {
+	font-family: "Arial";
+	padding: 25px 50px;
+}
+h1 {
+	font: bold 32px "Arial";
+}
+a {
+	display: inline;
+	margin: 0px;
+	font: 12px "Arial";
+}
+input {
+	display: block;
+	margin: 5px;
+}
+input[type="text"] {
+	width: 200px;
+}
+input[type="submit"] {
+	display: inline-block;
+}
+#leden-table th, #leden-table td {
+	min-width: 200px;
+	text-align: center;
+}
